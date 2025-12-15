@@ -27,7 +27,7 @@ To Run the API in Visual Studio:
 - right click on the 'API' project, select 'Set as Startup Project'
 - Click run
 
-## Run the app
+### Run the app
 - open a cmd line prompt
 - navigate to the user search app project folder UserSearchApp\usersearchapp
 - type npm install
