@@ -1,0 +1,149 @@
+body {
+    background-color: #1A1A1A;
+}
+
+#root {
+    margin: 0 auto;
+    width: 50%;
+    font-family: "Tw Cen MT", "Century Gothic", "Apple Gothic", Futura, sans-serif;
+}
+
+#user-search-input-wrapper {
+}
+
+#user-search-input {
+    width: 90%;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 18px 0px 0px 18px;
+    display: inline;
+    padding-left: 10px;
+}
+
+#user-search-go {
+    border: 1px solid #E6235C;
+    background-color: #E6235C;
+    color: #FFFFFF;
+    border-radius: 0px 18px 18px 0px;
+    display: inline-block;
+    padding: 5px 15px 5px 5px;
+}
+
+#user-search-input::placeholder {
+    
+    color: #aaa;
+}
+
+#found-users {
+    
+    text-align: left;
+    border: 1px solid #eee;
+    border-radius: 18px;
+    margin-top: 1rem;
+    padding: 20px;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.found-user {
+    cursor: pointer;
+}
+
+.selected-user {
+    text-align: left;
+    margin-top: 1.4rem;
+    margin-top: 1rem;
+    margin-right: 10px;
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    width: 25%;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+#create-user-form {
+    
+    margin-top: 1rem;
+    padding: 20px;
+    border-radius: 18px;
+    background-color: white;
+}
+
+.create-user-form-first-name {
+    width: 40%;
+}
+
+.create-user-form-last-name {
+    width: 40%;
+}
+
+.create-user-form-job-title {
+    width: 25%;
+}
+
+.create-user-form-phone {
+    width: 25%;
+}
+
+.create-user-form-email {
+    width: 25%;
+}
+
+.create-user-form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#create-user-form input {
+    padding: 10px 5px 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: solid 1px grey;
+}
+
+#create-user-button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#create-user-button {
+    border: 1px solid #E6235C;
+    background-color: #E6235C;
+    color: #FFFFFF;
+}
+
+#toggle-create-user-button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#toggle-create-user-button {
+    border: 1px solid #E6235C;
+    background-color: #E6235C;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.create-user-form-error-message
+{
+    color: red;
+}
+
+#create-user-form-new-user-added {
+    background-color: #E6235C;
+    color: #FFFFFF;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+#create-user-form-new-user-added button {
+    border: none;
+    background-color: #E6235C;
+    color: #FFFFFF;
+    font-size: 20px;
+}
