@@ -98,7 +98,7 @@ function CreateUserForm() {
 
             {/* ... potentially many more individual input fields */}
             <div id="create-user-button-wrapper">
-                <button id="create-user-button" type="submit">Submit</button>
+                <button id="create-user-button" type="submit">Create</button>
             </div>
         </form>
     }
