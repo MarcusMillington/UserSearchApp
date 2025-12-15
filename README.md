@@ -5,10 +5,8 @@ This is an app with a search box. After 2 characters are entered an api will be 
 New people can be added to the system. To do this, click the 'New User +' button, to display the create user form. Fill in all the details and click 'Create'. The newly created user will now be available in the search.
 
 
-
 ## How It's Made
 
 Tech used : React, .NET Core API, SQL Server Database
 
-API: In the API i used 
 
